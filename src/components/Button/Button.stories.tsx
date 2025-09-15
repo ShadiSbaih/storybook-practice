@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "./index";
+import { withMaxWidth } from "../../../.storybook/decorators";
 
 const meta: Meta<typeof Button> = {
     title: "Components/Button",
@@ -8,7 +9,7 @@ const meta: Meta<typeof Button> = {
         layout: "centered",
     },
     tags: ["autodocs"],
-    args:{
+    args: {
         children: "shared content",
     }//default args for all stories --> anything  here will  be shared across all stories
     ,
@@ -71,6 +72,7 @@ export const DisabledOutline: Story = {
         children: "Button",
         disabled: true,
     },
+
 };
 
 export const DisabledGhost: Story = {
@@ -79,6 +81,7 @@ export const DisabledGhost: Story = {
         children: "Button",
         disabled: true,
     },
+
 };
 
 // Realistic Variant
@@ -87,6 +90,7 @@ export const Realistic: Story = {
         variant: "realistic",
         children: "Realistic Button",
     },
+
 };
 
 // Size Variants
@@ -96,6 +100,8 @@ export const SizeSmall: Story = {
         size: "sm",
         children: "Small",
     },
+    decorators: [withMaxWidth],
+
 };
 
 export const SizeMedium: Story = {

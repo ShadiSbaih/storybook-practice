@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Input } from ".";
+import { withMaxWidth } from "../../../.storybook/decorators";
 
 const meta: Meta<typeof Input> = {
   title: "Components/Input",

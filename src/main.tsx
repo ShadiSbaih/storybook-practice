@@ -120,28 +120,28 @@ createRoot(rootElement).render(
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold text-gray-700">3D Variants</h2>
                 <div className="flex flex-wrap gap-4 items-center">
-                    <Button variant="three_D" colorscheme="primary" size="md">
+                    <Button variant="realistic" colorscheme="primary" size="md">
                         Primary 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="secondary" size="md">
+                    <Button variant="realistic" colorscheme="secondary" size="md">
                         Secondary 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="danger" size="md">
+                    <Button variant="realistic" colorscheme="danger" size="md">
                         Danger 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="success" size="md">
+                    <Button variant="realistic" colorscheme="success" size="md">
                         Success 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="warning" size="md">
+                    <Button variant="realistic" colorscheme="warning" size="md">
                         Warning 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="info" size="md">
+                    <Button variant="realistic" colorscheme="info" size="md">
                         Info 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="light" size="md">
+                    <Button variant="realistic" colorscheme="light" size="md">
                         Light 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="dark" size="md">
+                    <Button variant="realistic" colorscheme="dark" size="md">
                         Dark 3D
                     </Button>
                 </div>
@@ -151,13 +151,13 @@ createRoot(rootElement).render(
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold text-gray-700">3D Sizes</h2>
                 <div className="flex flex-wrap gap-4 items-center">
-                    <Button variant="three_D" colorscheme="primary" size="sm">
+                    <Button variant="realistic" colorscheme="primary" size="sm">
                         Small 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="primary" size="md">
+                    <Button variant="realistic" colorscheme="primary" size="md">
                         Medium 3D
                     </Button>
-                    <Button variant="three_D" colorscheme="primary" size="lg">
+                    <Button variant="realistic" colorscheme="primary" size="lg">
                         Large 3D
                     </Button>
                 </div>
