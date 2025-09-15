@@ -20,6 +20,13 @@ const meta: Meta<typeof Input> = {
     fullWidth: {
       control: { type: "boolean" },
     },
+    disabled: {
+      control: { type: "boolean" },
+    },
+    type: {
+      control: { type: "select" },
+      options: ["text", "password", "email", "number", "date", "url", "tel", "search"],
+    },
   },
 };
 

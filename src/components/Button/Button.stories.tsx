@@ -8,6 +8,23 @@ const meta: Meta<typeof Button> = {
         layout: "centered",
     },
     tags: ["autodocs"],
+    argTypes: {
+        variant: {
+            control: { type: "select" },
+            options: ["solid", "outline", "ghost", "three_D"],
+        },
+        size: {
+            control: { type: "select" },
+            options: ["sm", "md", "lg", "xl"],
+        },
+        colorscheme: {
+            control: { type: "select" },
+            options: ["primary", "secondary", "danger", "success", "warning", "info", "light", "dark"],
+        },
+        disabled: {
+            control: { type: "boolean" },
+        },
+    },
 };
 
 export default meta;
