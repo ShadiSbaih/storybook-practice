@@ -23,7 +23,7 @@ const buttonStyles = cva(
         solid: " ",
         outline: "border-2 bg-transparent",
         ghost: "bg-transparent border-transparent",
-        three_D:
+        realistic:
           "relative bg-gradient-to-br from-blue-500 to-purple-600 text-white shadow-lg transform active:translate-y-1 active:shadow-md",
       },
       size: {
@@ -193,49 +193,49 @@ const buttonStyles = cva(
       },
       // 3D variants - Unique styles for each colorscheme
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "primary",
         className:
           "bg-gradient-to-br from-primary-400 to-primary-600 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-primary-700 hover:border-primary-800 active:border-primary-600",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "secondary",
         className:
           "bg-gradient-to-r from-secondary-300 via-secondary-400 to-secondary-500 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-secondary-600 hover:border-secondary-700 active:border-secondary-500",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "danger",
         className:
           "bg-gradient-to-tr from-danger-400 via-red-500 to-danger-600 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-danger-700 hover:border-danger-800 active:border-danger-600 shadow-danger-300/50",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "success",
         className:
           "bg-gradient-to-bl from-success-400 to-success-600 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-success-700 hover:border-success-800 active:border-success-600 shadow-success-300/50",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "warning",
         className:
           "bg-gradient-to-r from-warning-300 via-yellow-400 to-warning-500 text-warning-900 shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-warning-600 hover:border-warning-700 active:border-warning-500 shadow-warning-200/60",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "info",
         className:
           "bg-gradient-to-tl from-info-400 via-cyan-500 to-info-600 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-info-700 hover:border-info-800 active:border-info-600 shadow-info-300/50",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "light",
         className:
           "bg-gradient-to-br from-white via-light-50 to-light-100 text-light-800 shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-light-300 hover:border-light-400 active:border-light-200 shadow-light-400/30",
       },
       {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "dark",
         className:
           "bg-gradient-to-br from-dark-600 via-gray-800 to-dark-900 text-white shadow-lg hover:shadow-xl active:shadow-md border-b-4 border-dark-900 hover:border-black active:border-dark-800 shadow-dark-900/60",

@@ -11,7 +11,7 @@ const meta: Meta<typeof Button> = {
     argTypes: {
         variant: {
             control: { type: "select" },
-            options: ["solid", "outline", "ghost", "three_D"],
+            options: ["solid", "outline", "ghost", "realistic"],
         },
         size: {
             control: { type: "select" },
@@ -77,11 +77,11 @@ export const DisabledGhost: Story = {
     },
 };
 
-// Three D Variant
-export const ThreeD: Story = {
+// Realistic Variant
+export const Realistic: Story = {
     args: {
-        variant: "three_D",
-        children: "3D Button",
+        variant: "realistic",
+        children: "Realistic Button",
     },
 };
 
@@ -313,74 +313,74 @@ export const GhostDark: Story = {
     },
 };
 
-// Colorscheme Variants - Three D
-export const ThreeDPrimary: Story = {
+// Colorscheme Variants - Realistic
+export const RealisticPrimary: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "primary",
-        children: "Primary 3D",
+        children: "Primary Realistic",
     },
 };
 
-export const ThreeDSecondary: Story = {
+export const RealisticSecondary: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "secondary",
-        children: "Secondary 3D",
+        children: "Secondary Realistic",
     },
 };
 
-export const ThreeDDanger: Story = {
+export const RealisticDanger: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "danger",
-        children: "Danger 3D",
+        children: "Danger Realistic",
     },
 };
 
-export const ThreeDSuccess: Story = {
+export const RealisticSuccess: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "success",
-        children: "Success 3D",
+        children: "Success Realistic",
     },
 };
 
-export const ThreeDWarning: Story = {
+export const RealisticWarning: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "warning",
-        children: "Warning 3D",
+        children: "Warning Realistic",
     },
 };
 
-export const ThreeDInfo: Story = {
+export const RealisticInfo: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "info",
-        children: "Info 3D",
+        children: "Info Realistic",
     },
 };
 
-export const ThreeDLight: Story = {
+export const RealisticLight: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "light",
-        children: "Light 3D",
+        children: "Light Realistic",
     },
 };
 
-export const ThreeDDark: Story = {
+export const RealisticDark: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         colorscheme: "dark",
-        children: "Dark 3D",
+        children: "Dark Realistic",
     },
 };
 
-export const three_D: Story = {
+export const realistic: Story = {
     args: {
-        variant: "three_D",
+        variant: "realistic",
         children: "Button",
     },
 };
