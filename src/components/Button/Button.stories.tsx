@@ -8,7 +8,9 @@ const meta: Meta<typeof Button> = {
         layout: "centered",
     },
     tags: ["autodocs"],
-    args:{}//default args for all stories --> anything  here will  be shared across all stories
+    args:{
+        children: "shared content",
+    }//default args for all stories --> anything  here will  be shared across all stories
     ,
     argTypes: {
         variant: {
@@ -36,7 +38,7 @@ type Story = StoryObj<typeof meta>;
 export const Solid: Story = {
     args: {
         variant: "solid",
-        children: "Button",
+        //here children will be "shared content" because it is defined in the default args
     },
 };
 
