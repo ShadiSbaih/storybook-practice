@@ -8,6 +8,8 @@ const meta: Meta<typeof Button> = {
         layout: "centered",
     },
     tags: ["autodocs"],
+    args:{}//default args for all stories --> anything  here will  be shared across all stories
+    ,
     argTypes: {
         variant: {
             control: { type: "select" },
